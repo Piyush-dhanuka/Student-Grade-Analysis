@@ -22,47 +22,4 @@ Generates statistical summaries using NumPy/Pandas
 
 Exports a formatted text report
 
-Creates bar chart visualization of subject averages using Seaborn/Matplotlib
-
-Requirements
-
-Install the required dependencies:
-
-pip install pandas numpy seaborn matplotlib
-
-Usage
-
-Run the main script:
-
-python project.py
-
-
-This will:
-
-Load data from student_grades.csv
-
-Process and analyze grades
-
-Save a detailed report to analysis_report_comprehensive.txt
-
-Display a visualization of average marks per subject
-
-Example Output
-
-===== Comprehensive Student Performance Report =====
-
-Total Students Analyzed: 60
-
-Overall Class Average Mark: 74.23
-
-Total Students Passed: 45
-
-----------------------------------------------
-
-Subject-wise Averages:
-
-- Math_Marks: 68.61
-
-- Science_Marks: 74.96
-
-- English_Marks: 79.12
+Creates bar chart visualization of subject averages using Seaborn/Matplotlib.
