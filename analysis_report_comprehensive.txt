@@ -1,0 +1,10 @@
+===== Comprehensive Student Performance Report =====
+
+Total Students Analyzed: 60
+Overall Class Average Mark: 74.23
+Total Students Passed: 45
+----------------------------------------------
+Subject-wise Averages:
+- Math_Marks: 68.61
+- Science_Marks: 74.96
+- English_Marks: 79.12
