@@ -89,7 +89,7 @@ def generate_report(stats_dict):
         for subject, avg in stats_dict['Subject_Averages'].items():
             file.write(f"- {subject}: {avg:.2f}\n")
 
-    print(f"✅ Detailed analysis report saved to {OUTPUT_FILE}")
+    print(f" Detailed analysis report saved to {OUTPUT_FILE}")
 
 def main():
     """Main function to run the project pipeline."""
@@ -102,4 +102,5 @@ def main():
         generate_visualization(data_frame)
 
 if __name__ == "__main__":
+
     main()
