@@ -1,16 +1,20 @@
-Student Grades Analysis
+# Student Grades Analysis
 
 This project analyzes student performance data from a CSV file, generates statistical summaries, and visualizes subject-wise averages.
+----
 
-Files
+## Files:
 
-project.py – Main Python script that loads, cleans, analyzes, and visualizes student grade data.
+## project.py – 
+Main Python script that loads, cleans, analyzes, and visualizes student grade data.
 
-student_grades.csv – Input dataset containing student marks in Math, Science, and English.
+## student_grades.csv –
+Input dataset containing student marks in Math, Science, and English.
 
-analysis_report_comprehensive.txt – Auto-generated output report summarizing overall and subject-wise performance.
+## analysis_report_comprehensive.txt –
+Auto-generated output report summarizing overall and subject-wise performance.
 
-Features
+## Features:
 
 Loads and cleans CSV data using pandas
 
