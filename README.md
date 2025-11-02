@@ -48,16 +48,21 @@ Save a detailed report to analysis_report_comprehensive.txt
 Display a visualization of average marks per subject
 
 Example Output
+
 ===== Comprehensive Student Performance Report =====
+
 Total Students Analyzed: 60
+
 Overall Class Average Mark: 74.23
+
 Total Students Passed: 45
+
 ----------------------------------------------
+
 Subject-wise Averages:
+
 - Math_Marks: 68.61
+
 - Science_Marks: 74.96
+
 - English_Marks: 79.12
-
-Author
-
-Developed as a simple data analysis and visualization pipeline using Python.
