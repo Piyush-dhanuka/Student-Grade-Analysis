@@ -25,7 +25,7 @@ def load_and_process_data(file_path):
         df['Status'] = np.where(df['Overall_Average'] >= PASS_MARK, 'Pass', 'Fail')
 
         print("Data Loaded, Cleaned, and Enhanced:")
-        print(df[['RollNumber', 'Name', 'Overall_Average', 'Status']].head())
+        print(df[['RollNumber', 'Name', 'Overall_Average', 'Status']].head(10))
 
         return df
     except FileNotFoundError:
@@ -104,3 +104,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
